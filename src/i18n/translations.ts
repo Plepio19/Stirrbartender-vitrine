@@ -12,7 +12,7 @@ export const translations = {
     },
     home: {
       title: 'Stirr',
-      slogan: 'Crafting moments, one cocktail at a time.',
+      slogan: 'Taste the detail',
       privacyButton: 'Privacy Policy',
       termsButton: 'Terms & Conditions',
     },
@@ -22,76 +22,116 @@ export const translations = {
       copyright: '© 2025 Stirr. All rights reserved.',
     },
     privacy: {
-      title: 'Privacy Policy',
-      intro: 'Your privacy is important to us. This Privacy Policy explains how Stirr ("we", "us", or "our") collects, uses, discloses, and safeguards your information when you use our mobile application.',
-      sections: [
-        {
-          title: '1. Introduction',
-          content: 'Welcome to Stirr. We are committed to protecting your personal information and your right to privacy. This Privacy Policy governs the privacy practices of our mobile application and related services. By using our application, you agree to the collection and use of information in accordance with this policy.',
-        },
-        {
-          title: '2. Data We Collect',
-          content: 'We may collect information that you provide directly to us, including: account information (email address, username), user preferences and settings, cocktail recipes you create or save, your home bar inventory, and usage data such as features accessed and interactions within the app.',
-        },
-        {
-          title: '3. How We Use Your Data',
-          content: 'We use the collected information to: provide, operate, and maintain our application; improve, personalize, and expand our services; understand and analyze how you use our application; develop new products, services, and features; communicate with you for customer service, updates, and promotional purposes (with your consent).',
-        },
-        {
-          title: '4. Cookies and Tracking Technologies',
-          content: 'Our application may use cookies, local storage, and similar technologies to enhance your experience. These technologies help us remember your preferences, understand usage patterns, and improve our services. You can manage your preferences through your device settings.',
-        },
-        {
-          title: '5. Data Retention',
-          content: 'We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, including to satisfy legal, accounting, or reporting requirements. When you delete your account, we will delete or anonymize your personal data within 30 days, unless retention is required by law.',
-        },
-        {
-          title: '6. Your Rights',
-          content: 'Depending on your location, you may have certain rights regarding your personal information, including: the right to access your data; the right to correct inaccurate data; the right to delete your data; the right to data portability; the right to object to processing; and the right to withdraw consent.',
-        },
-        {
-          title: '7. Contact Us',
-          content: 'If you have any questions about this Privacy Policy or our data practices, please contact us at: privacy@stirrapp.com. We will respond to your inquiry within 30 business days.',
-        },
-      ],
+      title: 'Stirr — Privacy Policy',
+        intro: 'Protecting your privacy is a priority for Stirr. This Privacy Policy describes how we collect, use, store, and protect your personal data when you use the Stirr mobile application ("Application"). By using the Application, you agree to the practices described in this policy. If you do not agree to these terms, please do not use the Application.',
+        sections: [
+          {
+            title: '1. Introduction',
+            content: 'Protecting your privacy is a priority for Stirr. This Privacy Policy explains how we collect, use, store, and protect your personal data when you use the Application. By using the Application, you agree to the practices described in this policy.',
+          },
+          {
+            title: '2. Data Collected',
+            content: 'We only collect data that is necessary to provide and improve the service, including: email address; username; full name (optional); information provided during onboarding (goals, level of experience, discovery of the app); recipes created; personalized ingredients; preferences, favorites, and ingredient inventory.',
+          },
+          {
+            title: '3. Purposes of Processing',
+            content: 'Your data is used to: provide and customize the Application’s features; synchronize your data between your devices; manage your user account; improve the user experience; develop new features; suggest cocktails tailored to your preferences; ensure security and prevent fraud; comply with our legal obligations. We never sell your personal data.',
+          },
+          {
+            title: '4. Data Storage and Security',
+            content: 'Your data is hosted on Supabase servers, which comply with recognized security standards, including SOC 2 Type II and GDPR compliance. We implement appropriate technical and organizational measures to protect your data against unauthorized access, loss, or disclosure.',
+          },
+          {
+            title: '5. Retention Period',
+            content: 'We only retain your personal data for as long as necessary for the purposes described above. Data related to your account is retained for as long as your account remains active. If you delete your account, your personal data will be deleted.',
+          },
+          {
+            title: '6. Data Sharing',
+            content: 'Your data may only be shared in the following cases: with our technical service providers (e.g., hosting via Supabase), strictly for the purpose of providing the service; when required by law; in the event of a request from an administrative or judicial authority. We do not share or sell your data for commercial purposes. Recipes that you choose to make public may be visible to other users.',
+          },
+          {
+            title: '7. Cookies and Similar Technologies',
+            content: 'Stirr uses local storage technologies and similar tools to keep your session active and improve performance, including image caching.',
+          },
+          {
+            title: '8. Protection of Minors',
+            content: 'Stirr is an application intended for people of legal drinking age in their country. We do not knowingly collect personal data about minors. If you believe that a minor has provided us with information, please contact us so that we can delete it.',
+          },
+          {
+            title: '9. Links to Third-Party Services',
+            content: 'The Application may contain links to third-party sites or services. We are not responsible for their privacy practices and encourage you to review their respective policies.',
+          },
+          {
+            title: '10. Changes to the Policy',
+            content: 'We may update this Privacy Policy at any time. In the event of a substantial change, we will notify you via the Application or by email. The date of the last update is shown at the top of the document.',
+          },
+          {
+            title: '11. Contact',
+            content: 'For any questions regarding the protection of your personal data: Email: contact@stirrbartender.com.',
+          },
+        ],
     },
     terms: {
-      title: 'Terms & Conditions',
-      intro: 'These Terms and Conditions ("Terms") govern your use of the Stirr mobile application ("Application") operated by Stirr ("we", "us", or "our"). Please read these Terms carefully before using our Application.',
-      sections: [
-        {
-          title: '1. Acceptance of Terms',
-          content: 'By downloading, installing, or using the Stirr application, you agree to be bound by these Terms. If you do not agree to these Terms, you must not access or use the Application. We reserve the right to modify these Terms at any time, and your continued use of the Application constitutes acceptance of such modifications.',
-        },
-        {
-          title: '2. Use of the Service',
-          content: 'Stirr grants you a limited, non-exclusive, non-transferable, revocable license to use the Application for personal, non-commercial purposes. You agree not to: use the Application for any unlawful purpose; attempt to reverse engineer the Application; remove any copyright or proprietary notices; transfer your account to another person without our consent.',
-        },
-        {
-          title: '3. Intellectual Property',
-          content: 'The Application and its original content, features, and functionality are owned by Stirr and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws. Our trademarks may not be used in connection with any product or service without our prior written consent.',
-        },
-        {
-          title: '4. Disclaimer',
-          content: 'The Application is provided on an "AS IS" and "AS AVAILABLE" basis. Stirr makes no warranties, expressed or implied, regarding the operation of the Application or the information, content, or materials included therein. Cocktail recipes are for informational purposes only. Please drink responsibly and in accordance with local laws.',
-        },
-        {
-          title: '5. Limitation of Liability',
-          content: 'In no event shall Stirr, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of the Application.',
-        },
-        {
-          title: '6. Changes to Terms',
-          content: 'We reserve the right to modify or replace these Terms at any time at our sole discretion. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.',
-        },
-        {
-          title: '7. Governing Law',
-          content: 'These Terms shall be governed by and construed in accordance with the laws of France, without regard to its conflict of law provisions. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Paris, France.',
-        },
-        {
-          title: '8. Contact Us',
-          content: 'If you have any questions about these Terms, please contact us at: legal@stirrapp.com. We are committed to resolving any disputes fairly and promptly.',
-        },
-      ],
+        title: 'Terms and Conditions of Use',
+        intro: 'These Terms and Conditions of Use ("Terms") govern your use of the Stirr mobile application ("Application"). By downloading, installing, accessing, or using the Application, you agree to be bound by these Terms and all applicable laws and regulations. If you do not agree to all of these Terms, you must not use the Application.',
+        sections: [
+          {
+            title: '1. Acceptance of Terms',
+            content: 'By downloading, installing, accessing, or using the Application, you agree to be bound by these Terms. If you do not agree to all of these Terms, you must not use the Application. You represent that you are of legal drinking age in your country of residence.',
+          },
+          {
+            title: '2. Description of the Service',
+            content: 'Stirr is a mobile application dedicated to managing and discovering cocktails. It allows you to: discover and browse cocktail recipes; create, modify, and save your own recipes; manage a personal inventory of ingredients; mark cocktails as favorites or “to try”; create homemade (DIY) ingredients and their associated recipes.',
+          },
+          {
+            title: '3. License to Use',
+            content: 'Subject to your compliance with these Terms, Stirr grants you a limited, non-exclusive, non-transferable, revocable license to download and use the Application on your personal devices for strictly private and non-commercial purposes. This license does not constitute a transfer of ownership. You agree not to: copy, reproduce, or modify the Application; use the Application for commercial or public purposes; decompile, disassemble, or attempt to extract the source code; remove copyright or proprietary notices; distribute, resell, rent, or copy the Application to another server. Any violation will result in automatic termination of the license.',
+          },
+          {
+            title: '4. User Account',
+            content: 'Certain features require the creation of an account. You agree to: provide accurate, complete, and up-to-date information; keep your login details confidential; immediately notify Stirr of any unauthorized use; be responsible for all activity carried out under your account. A guest mode may be offered with limited features. Stirr reserves the right to suspend or delete an account in the event of a violation of these Terms.',
+          },
+          {
+            title: '5. User Content',
+            content: 'You retain all rights to the content you create through the Application (recipes, descriptions, custom ingredients). By posting content in the Application, you grant Stirr a non-exclusive, worldwide, royalty-free license necessary for the operation of the service to host, display, and distribute such content within the Application. You agree not to publish content that is: illegal, defamatory, hateful, or offensive; infringing on the intellectual property rights of others; containing viruses or malicious code; encouraging excessive or dangerous alcohol consumption. Stirr reserves the right to remove any content that does not comply with these rules.',
+          },
+          {
+            title: '6. Intellectual Property',
+            content: 'The Application, its design, features, source code, databases, logos, and original content are the exclusive property of Stirr and are protected by intellectual property laws. Classic cocktail recipes may be in the public domain. Recipes created by users remain their property, subject to the license granted to Stirr. No intellectual property rights are transferred to you under these Terms.',
+          },
+          {
+            title: '7. Alcohol Warning',
+            content: 'The Application features recipes for alcoholic beverages. The Application is intended for individuals who are of legal drinking age in their country. Stirr does not sell or distribute alcohol. We encourage responsible drinking. Never drive after consuming alcohol. Alcohol abuse is dangerous for your health. You are solely responsible for your consumption and for checking for allergens or dietary restrictions.',
+          },
+          {
+            title: '8. Accuracy of Information',
+            content: 'The recipes, descriptions, and information in the Application may contain technical or typographical errors or inaccuracies. Stirr does not guarantee that the content is accurate, complete, reliable, or up to date. Stirr may modify the content of the Application at any time without any obligation to update it.',
+          },
+          {
+            title: '9. Links to Third-Party Sites',
+            content: 'The Application may contain links to third-party sites or services. Stirr has not necessarily reviewed these services and accepts no responsibility for their content, policies, or operation. Access to these third-party services is at your own risk.',
+          },
+          {
+            title: '10. Limitation of Liability',
+            content: 'To the extent permitted by applicable law: the Application is provided “as is” and without warranty of any kind; Stirr disclaims all express or implied warranties, including warranties of merchantability or fitness for a particular purpose; Stirr is not responsible for the consequences of alcohol consumption.',
+          },
+          {
+            title: '11. Termination',
+            content: 'You may stop using the Application at any time and delete your account from the settings. Stirr may suspend or terminate your access in the event of: violation of these Terms; misuse of the service; legal obligation. In the event of termination, the user license shall terminate immediately. Data will be processed in accordance with the Privacy Policy.',
+          },
+          {
+            title: '12. Changes to the Terms',
+            content: 'Stirr may change these Terms at any time. The current version is the one published in the Application. By continuing to use the Application after any changes, you agree to the new Terms.',
+          },
+          {
+            title: '13. Applicable Law and Jurisdiction',
+            content: 'These Terms are governed by French law. Any dispute relating to their interpretation or execution shall be submitted to the competent French courts, subject to the mandatory provisions protecting consumers in their country of residence.',
+          },
+          {
+            title: '14. Contact',
+            content: 'For any questions regarding these Terms: Email: contact@stirrbartender.com.',
+          },
+        ],
     },
   },
   fr: {
@@ -103,7 +143,7 @@ export const translations = {
     },
     home: {
       title: 'Stirr',
-      slogan: 'Créer des moments, un cocktail à la fois.',
+      slogan: 'Le goût du détail',
       privacyButton: 'Politique de Confidentialité',
       termsButton: 'Conditions Générales',
     },
@@ -113,77 +153,117 @@ export const translations = {
       copyright: '© 2025 Stirr. Tous droits réservés.',
     },
     privacy: {
-      title: 'Politique de Confidentialité',
-      intro: 'Votre vie privée est importante pour nous. Cette Politique de Confidentialité explique comment Stirr ("nous" ou "notre") collecte, utilise, divulgue et protège vos informations lorsque vous utilisez notre application mobile.',
-      sections: [
-        {
-          title: '1. Introduction',
-          content: 'Bienvenue sur Stirr. Nous nous engageons à protéger vos informations personnelles et votre droit à la vie privée. Cette Politique de Confidentialité régit les pratiques de confidentialité de notre application mobile et services associés. En utilisant notre application, vous acceptez la collecte et l\'utilisation des informations conformément à cette politique.',
-        },
-        {
-          title: '2. Données que nous collectons',
-          content: 'Nous pouvons collecter les informations que vous nous fournissez directement, notamment : les informations de compte (adresse e-mail, nom d\'utilisateur), vos préférences et paramètres, les recettes de cocktails que vous créez ou enregistrez, l\'inventaire de votre bar, et les données d\'utilisation telles que les fonctionnalités consultées et les interactions au sein de l\'application.',
-        },
-        {
-          title: '3. Comment nous utilisons vos données',
-          content: 'Nous utilisons les informations collectées pour : fournir, exploiter et maintenir notre application ; améliorer, personnaliser et développer nos services ; comprendre et analyser comment vous utilisez notre application ; développer de nouveaux produits, services et fonctionnalités ; communiquer avec vous pour le service client, les mises à jour et à des fins promotionnelles (avec votre consentement).',
-        },
-        {
-          title: '4. Cookies et technologies de suivi',
-          content: 'Notre application peut utiliser des cookies, le stockage local et des technologies similaires pour améliorer votre expérience. Ces technologies nous aident à mémoriser vos préférences, comprendre les habitudes d\'utilisation et améliorer nos services. Vous pouvez gérer vos préférences via les paramètres de votre appareil.',
-        },
-        {
-          title: '5. Conservation des données',
-          content: 'Nous conservons vos informations personnelles uniquement aussi longtemps que nécessaire pour atteindre les objectifs pour lesquels elles ont été collectées, y compris pour satisfaire aux exigences légales, comptables ou de reporting. Lorsque vous supprimez votre compte, nous supprimons ou anonymisons vos données personnelles dans un délai de 30 jours, sauf si la conservation est requise par la loi.',
-        },
-        {
-          title: '6. Vos droits',
-          content: 'Selon votre localisation, vous pouvez avoir certains droits concernant vos informations personnelles, notamment : le droit d\'accéder à vos données ; le droit de corriger les données inexactes ; le droit de supprimer vos données ; le droit à la portabilité des données ; le droit de vous opposer au traitement ; et le droit de retirer votre consentement.',
-        },
-        {
-          title: '7. Nous contacter',
-          content: 'Si vous avez des questions concernant cette Politique de Confidentialité ou nos pratiques en matière de données, veuillez nous contacter à : privacy@stirrapp.com. Nous répondrons à votre demande dans un délai de 30 jours ouvrables.',
-        },
-      ],
+      title: 'Stirr — Politique de Confidentialité',
+        intro: 'La protection de votre vie privée est une priorité pour Stirr. La présente Politique de Confidentialité décrit la manière dont nous collectons, utilisons, stockons et protégeons vos données personnelles lorsque vous utilisez l’application mobile Stirr ("Application"). En utilisant l’Application, vous acceptez les pratiques décrites dans la présente politique. Si vous n’acceptez pas ces conditions, veuillez ne pas utiliser l’Application.',
+        sections: [
+          {
+            title: '1. Introduction',
+            content: 'La protection de votre vie privée est une priorité pour Stirr. Cette Politique de Confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos données personnelles lorsque vous utilisez l’Application. En utilisant l’Application, vous acceptez les pratiques décrites dans la présente politique.',
+          },
+          {
+            title: '2. Données collectées',
+            content: 'Nous collectons uniquement les données nécessaires à la fourniture et à l’amélioration du service, notamment : adresse email ; nom d’utilisateur ; nom complet (facultatif) ; informations renseignées lors de l’onboarding (objectifs, niveau d’expérience, découverte de l’application) ; recettes créées ; ingrédients personnalisés ; préférences, favoris et inventaire d’ingrédients.',
+          },
+          {
+            title: '3. Finalités du traitement',
+            content: 'Vos données sont utilisées pour : fournir et personnaliser les fonctionnalités de l’Application ; synchroniser vos données entre vos appareils ; gérer votre compte utilisateur ; améliorer l’expérience utilisateur ; développer de nouvelles fonctionnalités ; vous suggérer des cocktails adaptés à vos préférences ; assurer la sécurité et prévenir les fraudes ; respecter nos obligations légales. Nous ne vendons jamais vos données personnelles.',
+          },
+          {
+            title: '4. Stockage et sécurité des données',
+            content: 'Vos données sont hébergées sur les serveurs de Supabase, conformes aux standards de sécurité reconnus, notamment SOC 2 Type II et conformité au RGPD. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées afin de protéger vos données contre tout accès non autorisé, perte ou divulgation.',
+          },
+          {
+            title: '5. Durée de conservation',
+            content: 'Nous conservons vos données personnelles uniquement pendant la durée nécessaire aux finalités décrites ci-dessus. Les données liées à votre compte sont conservées tant que celui-ci est actif. En cas de suppression de votre compte, vos données personnelles sont supprimées.',
+          },
+          {
+            title: '6. Partage des données',
+            content: 'Vos données peuvent être partagées uniquement dans les cas suivants : avec nos prestataires techniques (par exemple, hébergement via Supabase) strictement pour la fourniture du service ; lorsque la loi l’exige ; en cas de demande d’une autorité administrative ou judiciaire. Nous ne partageons ni ne vendons vos données à des fins commerciales. Les recettes que vous choisissez de rendre publiques peuvent être visibles par les autres utilisateurs.',
+          },
+          {
+            title: '7. Cookies et technologies similaires',
+            content: 'Stirr utilise des technologies de stockage local et outils similaires afin de maintenir votre session active et d’améliorer les performances de l’Application, notamment via la mise en cache des images.',
+          },
+          {
+            title: '8. Protection des mineurs',
+            content: 'Stirr est une application destinée aux personnes ayant l’âge légal pour consommer de l’alcool dans leur pays. Nous ne collectons pas sciemment de données personnelles concernant des mineurs. Si vous pensez qu’un mineur nous a fourni des informations, veuillez nous contacter afin que nous puissions les supprimer.',
+          },
+          {
+            title: '9. Liens vers des services tiers',
+            content: 'L’Application peut contenir des liens vers des sites ou services tiers. Nous ne sommes pas responsables de leurs pratiques en matière de confidentialité et vous encourageons à consulter leurs politiques respectives.',
+          },
+          {
+            title: '10. Modifications de la Politique',
+            content: 'Nous pouvons mettre à jour la présente Politique de Confidentialité à tout moment. En cas de modification substantielle, nous vous en informerons via l’Application ou par email. La date de dernière mise à jour figure en haut du document.',
+          },
+          {
+            title: '11. Contact',
+            content: 'Pour toute question relative à la protection de vos données personnelles : Email : contact@stirrbartender.com.',
+          },
+        ],
     },
     terms: {
-      title: 'Conditions Générales',
-      intro: 'Ces Conditions Générales ("Conditions") régissent votre utilisation de l\'application mobile Stirr ("Application") exploitée par Stirr ("nous" ou "notre"). Veuillez lire attentivement ces Conditions avant d\'utiliser notre Application.',
-      sections: [
-        {
-          title: '1. Acceptation des conditions',
-          content: 'En téléchargeant, installant ou utilisant l\'application Stirr, vous acceptez d\'être lié par ces Conditions. Si vous n\'acceptez pas ces Conditions, vous ne devez pas accéder ni utiliser l\'Application. Nous nous réservons le droit de modifier ces Conditions à tout moment, et votre utilisation continue de l\'Application constitue l\'acceptation de ces modifications.',
-        },
-        {
-          title: '2. Utilisation du service',
-          content: 'Stirr vous accorde une licence limitée, non exclusive, non transférable et révocable pour utiliser l\'Application à des fins personnelles et non commerciales. Vous vous engagez à ne pas : utiliser l\'Application à des fins illégales ; tenter de désosser l\'Application ; supprimer les mentions de droits d\'auteur ou de propriété ; transférer votre compte à une autre personne sans notre consentement.',
-        },
-        {
-          title: '3. Propriété intellectuelle',
-          content: 'L\'Application et son contenu original, ses fonctionnalités et sa fonctionnalité sont la propriété de Stirr et sont protégés par les lois internationales sur le droit d\'auteur, les marques, les brevets, les secrets commerciaux et autres lois sur la propriété intellectuelle. Nos marques ne peuvent pas être utilisées en relation avec un produit ou service sans notre consentement écrit préalable.',
-        },
-        {
-          title: '4. Avertissement',
-          content: 'L\'Application est fournie "EN L\'ÉTAT" et "SELON DISPONIBILITÉ". Stirr n\'offre aucune garantie, expresse ou implicite, concernant le fonctionnement de l\'Application ou les informations, contenus ou matériaux qui y sont inclus. Les recettes de cocktails sont fournies à titre informatif uniquement. Veuillez consommer de manière responsable et conformément aux lois locales.',
-        },
-        {
-          title: '5. Limitation de responsabilité',
-          content: 'En aucun cas Stirr, ses directeurs, employés, partenaires, agents, fournisseurs ou affiliés ne seront responsables de tout dommage indirect, accessoire, spécial, consécutif ou punitif, y compris, sans limitation, la perte de profits, de données, d\'utilisation, de clientèle ou d\'autres pertes intangibles, résultant de votre accès ou utilisation de l\'Application.',
-        },
-        {
-          title: '6. Modifications des conditions',
-          content: 'Nous nous réservons le droit de modifier ou de remplacer ces Conditions à tout moment à notre seule discrétion. Si une révision est importante, nous fournirons un préavis d\'au moins 30 jours avant l\'entrée en vigueur des nouvelles conditions. Ce qui constitue un changement important sera déterminé à notre seule discrétion.',
-        },
-        {
-          title: '7. Droit applicable',
-          content: 'Ces Conditions seront régies et interprétées conformément aux lois françaises, sans égard à ses dispositions relatives aux conflits de lois. Tout litige découlant de ou en relation avec ces Conditions sera soumis à la compétence exclusive des tribunaux de Paris, France.',
-        },
-        {
-          title: '8. Nous contacter',
-          content: 'Si vous avez des questions concernant ces Conditions, veuillez nous contacter à : legal@stirrapp.com. Nous nous engageons à résoudre tout litige de manière équitable et rapide.',
-        },
-      ],
-    },
+        title: 'Conditions Générales d’Utilisation',
+        intro: 'Les présentes Conditions Générales d’Utilisation ("Conditions") régissent votre utilisation de l’application mobile Stirr ("Application"). En téléchargeant, installant, accédant ou utilisant l’Application, vous acceptez d’être lié par ces Conditions ainsi que par toutes les lois et réglementations applicables. Si vous n’acceptez pas l’intégralité des présentes Conditions, vous ne devez pas utiliser l’Application.',
+        sections: [
+          {
+            title: '1. Acceptation des Conditions',
+            content: 'En téléchargeant, installant, accédant ou utilisant l’Application, vous acceptez d’être lié par les présentes Conditions. Si vous n’acceptez pas l’intégralité des présentes Conditions, vous ne devez pas utiliser l’Application. Vous déclarez avoir l’âge légal requis pour consommer de l’alcool dans votre pays de résidence.',
+          },
+          {
+            title: '2. Description du service',
+            content: 'Stirr est une application mobile dédiée à la gestion et à la découverte de cocktails. Elle permet notamment de : découvrir et parcourir des recettes de cocktails ; créer, modifier et sauvegarder vos propres recettes ; gérer un inventaire personnel d’ingrédients ; marquer des cocktails comme favoris ou « à essayer » ; créer des ingrédients maison (DIY) et leurs recettes associées.',
+          },
+          {
+            title: '3. Licence d’utilisation',
+            content: 'Sous réserve du respect des présentes Conditions, Stirr vous accorde une licence limitée, non exclusive, non transférable et révocable vous permettant de télécharger et d’utiliser l’Application sur vos appareils personnels, à des fins strictement privées et non commerciales. Cette licence ne constitue pas un transfert de propriété. Vous vous engagez à ne pas : copier, reproduire ou modifier l’Application ; utiliser l’Application à des fins commerciales ou publiques ; décompiler, désassembler ou tenter d’extraire le code source ; supprimer les mentions de droits d’auteur ou de propriété ; distribuer, revendre, louer ou copier l’Application sur un autre serveur. Toute violation entraîne la résiliation automatique de la licence.',
+          },
+          {
+            title: '4. Compte utilisateur',
+            content: 'Certaines fonctionnalités nécessitent la création d’un compte. Vous vous engagez à : fournir des informations exactes, complètes et à jour ; maintenir la confidentialité de vos identifiants ; informer immédiatement Stirr de toute utilisation non autorisée ; être responsable de toute activité effectuée sous votre compte. Un mode invité peut être proposé avec des fonctionnalités limitées. Stirr se réserve le droit de suspendre ou supprimer un compte en cas de violation des présentes Conditions.',
+          },
+          {
+            title: '5. Contenu utilisateur',
+            content: 'Vous conservez l’ensemble des droits sur les contenus que vous créez via l’Application (recettes, descriptions, ingrédients personnalisés). En publiant du contenu dans l’Application, vous accordez à Stirr une licence non exclusive, mondiale, gratuite et nécessaire au fonctionnement du service pour héberger, afficher et diffuser ce contenu dans l’Application. Vous vous engagez à ne pas publier de contenu : illégal, diffamatoire, haineux ou offensant ; portant atteinte aux droits de propriété intellectuelle d’autrui ; contenant des virus ou codes malveillants ; encourageant une consommation excessive ou dangereuse d’alcool. Stirr se réserve le droit de supprimer tout contenu ne respectant pas ces règles.',
+          },
+          {
+            title: '6. Propriété intellectuelle',
+            content: 'L’Application, son design, ses fonctionnalités, son code source, ses bases de données, ses logos et son contenu original sont la propriété exclusive de Stirr et sont protégés par les lois relatives à la propriété intellectuelle. Les recettes classiques de cocktails peuvent relever du domaine public. Les recettes créées par les utilisateurs demeurent leur propriété, sous réserve de la licence accordée à Stirr. Aucun droit de propriété intellectuelle ne vous est transféré au titre des présentes Conditions.',
+          },
+          {
+            title: '7. Avertissement relatif à l’alcool',
+            content: 'L’Application présente des recettes de boissons alcoolisées. L’Application est réservée aux personnes ayant l’âge légal pour consommer de l’alcool dans leur pays. Stirr ne vend ni ne distribue d’alcool. Nous encourageons une consommation responsable. Ne conduisez jamais après avoir consommé de l’alcool. L’abus d’alcool est dangereux pour la santé. Vous êtes seul responsable de votre consommation et de la vérification des allergènes ou restrictions alimentaires.',
+          },
+          {
+            title: '8. Exactitude des informations',
+            content: 'Les recettes, descriptions et informations présentes dans l’Application peuvent contenir des erreurs techniques, typographiques ou imprécisions. Stirr ne garantit pas que les contenus soient exacts, complets, fiables ou à jour. Stirr peut modifier le contenu de l’Application à tout moment sans obligation de mise à jour.',
+          },
+          {
+            title: '9. Liens vers des sites tiers',
+            content: 'L’Application peut contenir des liens vers des sites ou services tiers. Stirr n’a pas nécessairement examiné ces services et décline toute responsabilité quant à leur contenu, leur politique ou leur fonctionnement. L’accès à ces services tiers se fait à vos propres risques.',
+          },
+          {
+            title: '10. Limitation de responsabilité',
+            content: 'Dans les limites autorisées par la loi applicable : l’Application est fournie « en l’état » et sans garantie d’aucune sorte ; Stirr décline toute garantie expresse ou implicite, notamment de qualité marchande ou d’adéquation à un usage particulier ; Stirr n’est pas responsable des conséquences liées à la consommation d’alcool.',
+          },
+          {
+            title: '11. Résiliation',
+            content: 'Vous pouvez cesser d’utiliser l’Application à tout moment et supprimer votre compte depuis les paramètres. Stirr peut suspendre ou résilier votre accès en cas de violation des présentes Conditions, d’usage abusif du service ou d’obligation légale. En cas de résiliation, la licence d’utilisation prend fin immédiatement. Les données seront traitées conformément à la Politique de confidentialité.',
+          },
+          {
+            title: '12. Modifications des Conditions',
+            content: 'Stirr peut modifier les présentes Conditions à tout moment. La version en vigueur est celle publiée dans l’Application. En continuant à utiliser l’Application après modification, vous acceptez les nouvelles Conditions.',
+          },
+          {
+            title: '13. Droit applicable et juridiction compétente',
+            content: 'Les présentes Conditions sont régies par le droit français. Tout litige relatif à leur interprétation ou exécution sera soumis aux tribunaux compétents français, sous réserve des dispositions impératives protégeant les consommateurs dans leur pays de résidence.',
+          },
+          {
+            title: '14. Contact',
+            content: 'Pour toute question relative aux présentes Conditions : Email : contact@stirrbartender.com.',
+          },
+        ],
+      },
   },
   es: {
     meta: {
@@ -194,7 +274,7 @@ export const translations = {
     },
     home: {
       title: 'Stirr',
-      slogan: 'Creando momentos, un cóctel a la vez.',
+      slogan: 'El sabor del detalle',
       privacyButton: 'Política de Privacidad',
       termsButton: 'Términos y Condiciones',
     },
@@ -204,77 +284,117 @@ export const translations = {
       copyright: '© 2025 Stirr. Todos los derechos reservados.',
     },
     privacy: {
-      title: 'Política de Privacidad',
-      intro: 'Su privacidad es importante para nosotros. Esta Política de Privacidad explica cómo Stirr ("nosotros" o "nuestro") recopila, usa, divulga y protege su información cuando utiliza nuestra aplicación móvil.',
-      sections: [
-        {
-          title: '1. Introducción',
-          content: 'Bienvenido a Stirr. Estamos comprometidos a proteger su información personal y su derecho a la privacidad. Esta Política de Privacidad rige las prácticas de privacidad de nuestra aplicación móvil y servicios relacionados. Al usar nuestra aplicación, usted acepta la recopilación y uso de información de acuerdo con esta política.',
-        },
-        {
-          title: '2. Datos que recopilamos',
-          content: 'Podemos recopilar información que usted nos proporciona directamente, incluyendo: información de cuenta (dirección de correo electrónico, nombre de usuario), preferencias y configuraciones del usuario, recetas de cócteles que crea o guarda, el inventario de su bar en casa, y datos de uso como funciones accedidas e interacciones dentro de la aplicación.',
-        },
-        {
-          title: '3. Cómo usamos sus datos',
-          content: 'Usamos la información recopilada para: proporcionar, operar y mantener nuestra aplicación; mejorar, personalizar y expandir nuestros servicios; comprender y analizar cómo usa nuestra aplicación; desarrollar nuevos productos, servicios y funciones; comunicarnos con usted para servicio al cliente, actualizaciones y fines promocionales (con su consentimiento).',
-        },
-        {
-          title: '4. Cookies y tecnologías de seguimiento',
-          content: 'Nuestra aplicación puede usar cookies, almacenamiento local y tecnologías similares para mejorar su experiencia. Estas tecnologías nos ayudan a recordar sus preferencias, comprender patrones de uso y mejorar nuestros servicios. Puede administrar sus preferencias a través de la configuración de su dispositivo.',
-        },
-        {
-          title: '5. Retención de datos',
-          content: 'Retenemos su información personal solo durante el tiempo necesario para cumplir los fines para los que fue recopilada, incluyendo satisfacer requisitos legales, contables o de informes. Cuando elimina su cuenta, eliminaremos o anonimizaremos sus datos personales dentro de 30 días, a menos que la retención sea requerida por ley.',
-        },
-        {
-          title: '6. Sus derechos',
-          content: 'Dependiendo de su ubicación, puede tener ciertos derechos con respecto a su información personal, incluyendo: el derecho a acceder a sus datos; el derecho a corregir datos inexactos; el derecho a eliminar sus datos; el derecho a la portabilidad de datos; el derecho a oponerse al procesamiento; y el derecho a retirar el consentimiento.',
-        },
-        {
-          title: '7. Contáctenos',
-          content: 'Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, contáctenos en: privacy@stirrapp.com. Responderemos a su consulta dentro de 30 días hábiles.',
-        },
-      ],
+        title: 'Stirr — Política de Privacidad',
+        intro: 'La protección de su privacidad es una prioridad para Stirr. La presente Política de Privacidad describe la forma en que recopilamos, utilizamos, almacenamos y protegemos sus datos personales cuando utiliza la aplicación móvil Stirr ("Aplicación"). Al utilizar la Aplicación, usted acepta las prácticas descritas en la presente política. Si no acepta estas condiciones, le rogamos que no utilice la Aplicación.',
+        sections: [
+          {
+            title: '1. Introducción',
+            content: 'La protección de su privacidad es una prioridad para Stirr. Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y protegemos sus datos personales cuando utiliza la Aplicación. Al utilizar la Aplicación, usted acepta las prácticas descritas en la presente política.',
+          },
+          {
+            title: '2. Datos recopilados',
+            content: 'Solo recopilamos los datos necesarios para prestar y mejorar el servicio, incluyendo: dirección de correo electrónico; nombre de usuario; nombre completo (opcional); información proporcionada durante el proceso de incorporación (objetivos, nivel de experiencia, descubrimiento de la aplicación); recetas creadas; ingredientes personalizados; preferencias, favoritos e inventario de ingredientes.',
+          },
+          {
+            title: '3. Finalidades del tratamiento',
+            content: 'Sus datos se utilizan para: proporcionar y personalizar las funcionalidades de la Aplicación; sincronizar sus datos entre sus dispositivos; gestionar su cuenta de usuario; mejorar la experiencia del usuario; desarrollar nuevas funcionalidades; sugerirle cócteles adaptados a sus preferencias; garantizar la seguridad y prevenir el fraude; cumplir con nuestras obligaciones legales. Nunca vendemos sus datos personales.',
+          },
+          {
+            title: '4. Almacenamiento y seguridad de los datos',
+            content: 'Sus datos se alojan en los servidores de Supabase, que cumplen con normas de seguridad reconocidas, en particular SOC 2 Tipo II y conformidad con el RGPD. Implementamos medidas técnicas y organizativas adecuadas para proteger sus datos contra accesos no autorizados, pérdida o divulgación.',
+          },
+          {
+            title: '5. Periodo de conservación',
+            content: 'Conservamos sus datos personales únicamente durante el tiempo necesario para los fines descritos anteriormente. Los datos relacionados con su cuenta se conservan mientras esta permanezca activa. En caso de eliminación de su cuenta, sus datos personales se eliminan.',
+          },
+          {
+            title: '6. Compartir datos',
+            content: 'Sus datos solo pueden compartirse en los siguientes casos: con nuestros proveedores técnicos (por ejemplo, alojamiento a través de Supabase), estrictamente para la prestación del servicio; cuando lo exija la ley; en caso de solicitud de una autoridad administrativa o judicial. No compartimos ni vendemos sus datos con fines comerciales. Las recetas que decida hacer públicas podrán ser visibles para otros usuarios.',
+          },
+          {
+            title: '7. Cookies y tecnologías similares',
+            content: 'Stirr utiliza tecnologías de almacenamiento local y herramientas similares para mantener su sesión activa y mejorar el rendimiento de la Aplicación, en particular mediante el uso de caché de imágenes.',
+          },
+          {
+            title: '8. Protección de menores',
+            content: 'Stirr es una aplicación destinada a personas que tienen la edad legal para consumir alcohol en su país. No recopilamos deliberadamente datos personales de menores. Si cree que un menor nos ha proporcionado información, póngase en contacto con nosotros para que podamos eliminarla.',
+          },
+          {
+            title: '9. Enlaces a servicios de terceros',
+            content: 'La Aplicación puede contener enlaces a sitios o servicios de terceros. No nos hacemos responsables de sus prácticas de privacidad y le recomendamos que consulte sus respectivas políticas.',
+          },
+          {
+            title: '10. Modificaciones de la Política',
+            content: 'Podemos actualizar la presente Política de Privacidad en cualquier momento. En caso de modificaciones sustanciales, se lo comunicaremos a través de la Aplicación o por correo electrónico. La fecha de la última actualización figura en la parte superior del documento.',
+          },
+          {
+            title: '11. Contacto',
+            content: 'Para cualquier pregunta relacionada con la protección de sus datos personales: Correo electrónico: contact@stirrbartender.com.',
+          },
+        ],
     },
     terms: {
-      title: 'Términos y Condiciones',
-      intro: 'Estos Términos y Condiciones ("Términos") rigen su uso de la aplicación móvil Stirr ("Aplicación") operada por Stirr ("nosotros" o "nuestro"). Por favor lea estos Términos cuidadosamente antes de usar nuestra Aplicación.',
-      sections: [
-        {
-          title: '1. Aceptación de términos',
-          content: 'Al descargar, instalar o usar la aplicación Stirr, usted acepta estar sujeto a estos Términos. Si no está de acuerdo con estos Términos, no debe acceder ni usar la Aplicación. Nos reservamos el derecho de modificar estos Términos en cualquier momento, y su uso continuo de la Aplicación constituye la aceptación de dichas modificaciones.',
-        },
-        {
-          title: '2. Uso del servicio',
-          content: 'Stirr le otorga una licencia limitada, no exclusiva, no transferible y revocable para usar la Aplicación con fines personales y no comerciales. Usted acepta no: usar la Aplicación para ningún propósito ilegal; intentar realizar ingeniería inversa de la Aplicación; eliminar avisos de derechos de autor o propiedad; transferir su cuenta a otra persona sin nuestro consentimiento.',
-        },
-        {
-          title: '3. Propiedad intelectual',
-          content: 'La Aplicación y su contenido original, características y funcionalidad son propiedad de Stirr y están protegidos por leyes internacionales de derechos de autor, marcas registradas, patentes, secretos comerciales y otras leyes de propiedad intelectual. Nuestras marcas no pueden usarse en conexión con ningún producto o servicio sin nuestro consentimiento previo por escrito.',
-        },
-        {
-          title: '4. Descargo de responsabilidad',
-          content: 'La Aplicación se proporciona "TAL CUAL" y "SEGÚN DISPONIBILIDAD". Stirr no ofrece garantías, expresas o implícitas, con respecto al funcionamiento de la Aplicación o la información, contenido o materiales incluidos en ella. Las recetas de cócteles son solo para fines informativos. Por favor beba responsablemente y de acuerdo con las leyes locales.',
-        },
-        {
-          title: '5. Limitación de responsabilidad',
-          content: 'En ningún caso Stirr, sus directores, empleados, socios, agentes, proveedores o afiliados serán responsables de ningún daño indirecto, incidental, especial, consecuente o punitivo, incluyendo sin limitación, pérdida de ganancias, datos, uso, buena voluntad u otras pérdidas intangibles, resultantes de su acceso o uso de la Aplicación.',
-        },
-        {
-          title: '6. Cambios en los términos',
-          content: 'Nos reservamos el derecho de modificar o reemplazar estos Términos en cualquier momento a nuestra sola discreción. Si una revisión es material, proporcionaremos al menos 30 días de aviso antes de que los nuevos términos entren en vigencia. Lo que constituye un cambio material será determinado a nuestra sola discreción.',
-        },
-        {
-          title: '7. Ley aplicable',
-          content: 'Estos Términos se regirán e interpretarán de acuerdo con las leyes de Francia, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa que surja bajo o en conexión con estos Términos estará sujeta a la jurisdicción exclusiva de los tribunales de París, Francia.',
-        },
-        {
-          title: '8. Contáctenos',
-          content: 'Si tiene alguna pregunta sobre estos Términos, contáctenos en: legal@stirrapp.com. Estamos comprometidos a resolver cualquier disputa de manera justa y rápida.',
-        },
-      ],
-    },
+        title: 'Condiciones Generales de Uso',
+        intro: 'Las presentes Condiciones Generales de Uso ("Condiciones") regulan el uso de la aplicación móvil Stirr ("Aplicación"). Al descargar, instalar, acceder o utilizar la Aplicación, usted acepta quedar vinculado por estas Condiciones y por todas las leyes y normativas aplicables. Si no acepta la totalidad de las presentes Condiciones, no debe utilizar la Aplicación.',
+        sections: [
+          {
+            title: '1. Aceptación de las Condiciones',
+            content: 'Al descargar, instalar, acceder o utilizar la Aplicación, usted acepta quedar vinculado por las presentes Condiciones. Si no acepta la totalidad de estas Condiciones, no debe utilizar la Aplicación. Usted declara tener la edad legal requerida para consumir alcohol en su país de residencia.',
+          },
+          {
+            title: '2. Descripción del Servicio',
+            content: 'Stirr es una aplicación móvil dedicada a la gestión y el descubrimiento de cócteles. En particular, permite: descubrir y explorar recetas de cócteles; crear, modificar y guardar sus propias recetas; gestionar un inventario personal de ingredientes; marcar cócteles como favoritos o «para probar»; crear ingredientes caseros (DIY) y sus recetas asociadas.',
+          },
+          {
+            title: '3. Licencia de Uso',
+            content: 'Sujeto al cumplimiento de las presentes Condiciones, Stirr le concede una licencia limitada, no exclusiva, intransferible y revocable que le permite descargar y utilizar la Aplicación en sus dispositivos personales, para fines estrictamente privados y no comerciales. Esta licencia no constituye una transferencia de propiedad. Usted se compromete a no: copiar, reproducir o modificar la Aplicación; utilizar la Aplicación con fines comerciales o públicos; descompilar, desensamblar o intentar extraer el código fuente; eliminar las menciones de derechos de autor o de propiedad; distribuir, revender, alquilar o copiar la Aplicación en otro servidor. Cualquier incumplimiento dará lugar a la rescisión automática de la licencia.',
+          },
+          {
+            title: '4. Cuenta de Usuario',
+            content: 'Algunas funciones requieren la creación de una cuenta. Usted se compromete a: proporcionar información exacta, completa y actualizada; mantener la confidencialidad de sus datos de identificación; informar inmediatamente a Stirr de cualquier uso no autorizado; ser responsable de cualquier actividad realizada con su cuenta. Se puede ofrecer un modo de invitado con funciones limitadas. Stirr se reserva el derecho de suspender o eliminar una cuenta en caso de incumplimiento de las presentes Condiciones.',
+          },
+          {
+            title: '5. Contenido del Usuario',
+            content: 'Usted conserva todos los derechos sobre los contenidos que crea a través de la Aplicación (recetas, descripciones, ingredientes personalizados). Al publicar contenido en la Aplicación, usted concede a Stirr una licencia no exclusiva, mundial, gratuita y necesaria para el funcionamiento del servicio para alojar, mostrar y difundir dicho contenido en la Aplicación. Usted se compromete a no publicar contenidos: ilegales, difamatorios, que inciten al odio u ofensivos; que vulneren los derechos de propiedad intelectual de terceros; que contengan virus o códigos maliciosos; que fomenten el consumo excesivo o peligroso de alcohol. Stirr se reserva el derecho de eliminar cualquier contenido que no respete estas normas.',
+          },
+          {
+            title: '6. Propiedad Intelectual',
+            content: 'La Aplicación, su diseño, sus funcionalidades, su código fuente, sus bases de datos, sus logotipos y su contenido original son propiedad exclusiva de Stirr y están protegidos por las leyes de propiedad intelectual. Las recetas clásicas de cócteles pueden ser de dominio público. Las recetas creadas por los usuarios siguen siendo de su propiedad, sin perjuicio de la licencia concedida a Stirr. No se le transfiere ningún derecho de propiedad intelectual en virtud de las presentes Condiciones.',
+          },
+          {
+            title: '7. Advertencia Relativa al Alcohol',
+            content: 'La Aplicación presenta recetas de bebidas alcohólicas. La Aplicación está reservada a personas que tengan la edad legal para consumir alcohol en su país. Stirr no vende ni distribuye alcohol. Fomentamos el consumo responsable. Nunca conduzca después de haber consumido alcohol. El abuso de alcohol es peligroso para la salud. Usted es el único responsable de su consumo y de la verificación de alérgenos o restricciones alimentarias.',
+          },
+          {
+            title: '8. Exactitud de la Información',
+            content: 'Las recetas, descripciones e información presentes en la Aplicación pueden contener errores técnicos, tipográficos o imprecisiones. Stirr no garantiza que los contenidos sean exactos, completos, fiables o estén actualizados. Stirr puede modificar el contenido de la Aplicación en cualquier momento sin obligación de actualizarlo.',
+          },
+          {
+            title: '9. Enlaces a Sitios de Terceros',
+            content: 'La Aplicación puede contener enlaces a sitios o servicios de terceros. Stirr no ha revisado necesariamente estos servicios y no se hace responsable de su contenido, política o funcionamiento. El acceso a estos servicios de terceros se realiza bajo su propia responsabilidad.',
+          },
+          {
+            title: '10. Limitación de Responsabilidad',
+            content: 'Dentro de los límites permitidos por la ley aplicable: la Aplicación se proporciona «tal cual» y sin garantía de ningún tipo; Stirr no ofrece ninguna garantía expresa o implícita, en particular de comerciabilidad o idoneidad para un uso particular; Stirr no se hace responsable de las consecuencias relacionadas con el consumo de alcohol.',
+          },
+          {
+            title: '11. Rescisión',
+            content: 'Puede dejar de utilizar la Aplicación en cualquier momento y eliminar su cuenta desde los ajustes. Stirr puede suspender o rescindir su acceso en caso de: incumplimiento de las presentes Condiciones; uso indebido del servicio; obligación legal. En caso de rescisión, la licencia de uso finalizará inmediatamente. Los datos se tratarán de conformidad con la Política de privacidad.',
+          },
+          {
+            title: '12. Modificaciones de las Condiciones',
+            content: 'Stirr puede modificar las presentes Condiciones en cualquier momento. La versión vigente es la publicada en la Aplicación. Al continuar utilizando la Aplicación después de la modificación, usted acepta las nuevas Condiciones.',
+          },
+          {
+            title: '13. Derecho Aplicable y Jurisdicción Competente',
+            content: 'Las presentes Condiciones se rigen por la legislación francesa. Cualquier litigio relativo a su interpretación o ejecución se someterá a los tribunales franceses competentes, sin perjuicio de las disposiciones imperativas que protegen a los consumidores en su país de residencia.',
+          },
+          {
+            title: '14. Contacto',
+            content: 'Para cualquier pregunta relativa a las presentes Condiciones: Correo electrónico: contact@stirrbartender.com.',
+          },
+        ],
+      },
   },
 };
 
