@@ -9,12 +9,12 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const t = getTranslations(params.lang);
   return {
-    title: t.meta.privacyTitle,
+    title: t.meta.creditsTitle,
     description: t.meta.description,
   };
 }
 
-export default function PrivacyPage({ params }: PageProps) {
+export default function CreditsPage({ params }: PageProps) {
   const { lang } = params;
   const t = getTranslations(lang);
 
@@ -29,7 +29,7 @@ export default function PrivacyPage({ params }: PageProps) {
           {SUPPORTED_LANGUAGES.map((l) => (
             <Link
               key={l}
-              href={`/${l}/privacy`}
+              href={`/${l}/credits`}
               className={`lang-btn ${l === lang ? 'active' : ''}`}
               aria-current={l === lang ? 'page' : undefined}
             >
@@ -46,28 +46,46 @@ export default function PrivacyPage({ params }: PageProps) {
         </Link>
 
         <header className="legal-header">
-          <h1 className="legal-title">{t.privacy.title}</h1>
-          <p className="legal-date">{t.common.effectiveDate}</p>
+          <h1 className="legal-title">{t.credits.title}</h1>
         </header>
 
-        <p className="legal-intro">{t.privacy.intro}</p>
+        <p className="legal-intro">{t.credits.intro}</p>
 
-        {t.privacy.sections.map((section, index) => (
-          <section key={index} className="legal-section">
-            <h2 className="legal-section__title">{section.title}</h2>
-            <p className="legal-section__content">{section.content}</p>
-          </section>
-        ))}
+        <ul className="credits-list">
+          {t.credits.items.map((item, index) => (
+            <li key={index} className="credits-list__item">
+              {item.name} by {item.author} from{' '}
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={item.urlTitle}
+                className="credits-link"
+              >
+                Noun Project
+              </a>{' '}
+              (CC BY 3.0)
+            </li>
+          ))}
+        </ul>
+
+        <p className="credits-license">
+          {t.credits.license}{' '}
+          <a
+            href="https://creativecommons.org/licenses/by/3.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="credits-link"
+          >
+            {t.credits.licenseLink}
+          </a>.
+        </p>
       </main>
 
       {/* Footer */}
       <footer className="footer footer--light">
-        <Link href={`/${lang}/credits`} className="footer__credits-link footer__credits-link--light">
-          {t.common.creditsLink}
-        </Link>
         <p className="footer__text">{t.common.copyright}</p>
       </footer>
     </div>
   );
 }
-

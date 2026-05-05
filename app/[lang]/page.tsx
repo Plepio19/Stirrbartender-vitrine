@@ -58,6 +58,9 @@ export default function HomePage({ params }: PageProps) {
 
       {/* Footer */}
       <footer className="footer">
+        <Link href={`/${lang}/credits`} className="footer__credits-link">
+          {t.common.creditsLink}
+        </Link>
         <p className="footer__text">{t.common.copyright}</p>
       </footer>
     </div>

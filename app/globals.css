@@ -256,6 +256,26 @@ a {
   text-align: center;
 }
 
+.footer__credits-link {
+  display: inline-block;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: var(--spacing-xs);
+  transition: color var(--transition);
+}
+
+.footer__credits-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__credits-link--light {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer__credits-link--light:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .footer__text {
   font-size: 0.8125rem;
   color: rgba(255, 255, 255, 0.5);
@@ -339,6 +359,45 @@ a {
 }
 
 .legal-section__content {
+  font-size: 0.9375rem;
+  color: var(--color-dark);
+  opacity: 0.7;
+  line-height: 1.8;
+}
+
+/* ============================================
+   CREDITS PAGE
+   ============================================ */
+.credits-list {
+  list-style: none;
+  margin-bottom: var(--spacing-xl);
+}
+
+.credits-list__item {
+  font-size: 0.9375rem;
+  color: var(--color-dark);
+  opacity: 0.7;
+  line-height: 1.8;
+  padding: var(--spacing-xs) 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.credits-list__item:last-child {
+  border-bottom: none;
+}
+
+.credits-link {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity var(--transition);
+}
+
+.credits-link:hover {
+  opacity: 0.7;
+}
+
+.credits-license {
   font-size: 0.9375rem;
   color: var(--color-dark);
   opacity: 0.7;

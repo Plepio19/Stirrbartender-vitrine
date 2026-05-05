@@ -8,6 +8,7 @@ export const translations = {
       homeTitle: 'Stirr — The Art of Mixology',
       privacyTitle: 'Stirr — Privacy Policy',
       termsTitle: 'Stirr — Terms & Conditions',
+      creditsTitle: 'Stirr — Icon Credits',
       description: 'Stirr brings the art of cocktail making to your fingertips.',
     },
     home: {
@@ -20,6 +21,7 @@ export const translations = {
       backHome: '← Back to Home',
       effectiveDate: 'Effective date: January 1, 2025',
       copyright: '© 2025 Stirr. All rights reserved.',
+      creditsLink: 'Icon Credits',
     },
     privacy: {
       title: 'Stirr — Privacy Policy',
@@ -133,12 +135,30 @@ export const translations = {
           },
         ],
     },
+    credits: {
+      title: 'Icon Credits',
+      intro: 'Some icons used on this site are from The Noun Project and are used under the Creative Commons Attribution 3.0 license (CC BY 3.0).',
+      items: [
+        { name: 'Martini Glass', author: 'Bohdan Burmich', url: 'https://thenounproject.com/browse/icons/term/martini-glass/', urlTitle: 'Martini Glass Icons' },
+        { name: 'Available', author: 'Setyo Ari Wibowo', url: 'https://thenounproject.com/browse/icons/term/available/', urlTitle: 'available Icons' },
+        { name: 'Favorite', author: 'Landan Lloyd', url: 'https://thenounproject.com/browse/icons/term/favorite/', urlTitle: 'Favorite Icons' },
+        { name: 'Bartender', author: 'Kael', url: 'https://thenounproject.com/browse/icons/term/bartender/', urlTitle: 'bartender Icons' },
+        { name: 'Shaker', author: 'Amethyst Studio', url: 'https://thenounproject.com/browse/icons/term/shaker/', urlTitle: 'shaker Icons' },
+        { name: 'Jiggers', author: 'Kiran Shastry', url: 'https://thenounproject.com/browse/icons/term/jiggers/', urlTitle: 'jiggers Icons' },
+        { name: 'Beer', author: 'Start Up Graphic Design', url: 'https://thenounproject.com/browse/icons/term/beer/', urlTitle: 'Beer Icons' },
+        { name: 'Bar', author: 'Rikas Dzihab', url: 'https://thenounproject.com/browse/icons/term/bar/', urlTitle: 'Bar Icons' },
+        { name: 'Home', author: 'Gregor Cresnar', url: 'https://thenounproject.com/browse/icons/term/home/', urlTitle: 'Home Icons' },
+      ],
+      license: 'License:',
+      licenseLink: 'Creative Commons Attribution 3.0',
+    },
   },
   fr: {
     meta: {
       homeTitle: 'Stirr — L\'Art de la Mixologie',
       privacyTitle: 'Stirr — Politique de Confidentialité',
       termsTitle: 'Stirr — Conditions Générales',
+      creditsTitle: 'Stirr — Crédits icônes',
       description: 'Stirr met l\'art du cocktail à portée de main.',
     },
     home: {
@@ -151,6 +171,7 @@ export const translations = {
       backHome: '← Retour à l\'accueil',
       effectiveDate: 'Date d\'effet : 1er janvier 2025',
       copyright: '© 2025 Stirr. Tous droits réservés.',
+      creditsLink: 'Crédits icônes',
     },
     privacy: {
       title: 'Stirr — Politique de Confidentialité',
@@ -264,12 +285,30 @@ export const translations = {
           },
         ],
       },
+    credits: {
+      title: 'Crédits icônes',
+      intro: 'Certaines icônes utilisées sur ce site proviennent de The Noun Project et sont utilisées sous licence Creative Commons Attribution 3.0 (CC BY 3.0).',
+      items: [
+        { name: 'Martini Glass', author: 'Bohdan Burmich', url: 'https://thenounproject.com/browse/icons/term/martini-glass/', urlTitle: 'Martini Glass Icons' },
+        { name: 'Available', author: 'Setyo Ari Wibowo', url: 'https://thenounproject.com/browse/icons/term/available/', urlTitle: 'available Icons' },
+        { name: 'Favorite', author: 'Landan Lloyd', url: 'https://thenounproject.com/browse/icons/term/favorite/', urlTitle: 'Favorite Icons' },
+        { name: 'Bartender', author: 'Kael', url: 'https://thenounproject.com/browse/icons/term/bartender/', urlTitle: 'bartender Icons' },
+        { name: 'Shaker', author: 'Amethyst Studio', url: 'https://thenounproject.com/browse/icons/term/shaker/', urlTitle: 'shaker Icons' },
+        { name: 'Jiggers', author: 'Kiran Shastry', url: 'https://thenounproject.com/browse/icons/term/jiggers/', urlTitle: 'jiggers Icons' },
+        { name: 'Beer', author: 'Start Up Graphic Design', url: 'https://thenounproject.com/browse/icons/term/beer/', urlTitle: 'Beer Icons' },
+        { name: 'Bar', author: 'Rikas Dzihab', url: 'https://thenounproject.com/browse/icons/term/bar/', urlTitle: 'Bar Icons' },
+        { name: 'Home', author: 'Gregor Cresnar', url: 'https://thenounproject.com/browse/icons/term/home/', urlTitle: 'Home Icons' },
+      ],
+      license: 'Licence :',
+      licenseLink: 'Creative Commons Attribution 3.0',
+    },
   },
   es: {
     meta: {
       homeTitle: 'Stirr — El Arte de la Mixología',
       privacyTitle: 'Stirr — Política de Privacidad',
       termsTitle: 'Stirr — Términos y Condiciones',
+      creditsTitle: 'Stirr — Créditos de iconos',
       description: 'Stirr pone el arte de la coctelería al alcance de tus manos.',
     },
     home: {
@@ -282,6 +321,7 @@ export const translations = {
       backHome: '← Volver al inicio',
       effectiveDate: 'Fecha de vigencia: 1 de enero de 2025',
       copyright: '© 2025 Stirr. Todos los derechos reservados.',
+      creditsLink: 'Créditos de iconos',
     },
     privacy: {
         title: 'Stirr — Política de Privacidad',
@@ -395,6 +435,23 @@ export const translations = {
           },
         ],
       },
+    credits: {
+      title: 'Créditos de iconos',
+      intro: 'Algunos iconos utilizados en este sitio provienen de The Noun Project y se utilizan bajo la licencia Creative Commons Attribution 3.0 (CC BY 3.0).',
+      items: [
+        { name: 'Martini Glass', author: 'Bohdan Burmich', url: 'https://thenounproject.com/browse/icons/term/martini-glass/', urlTitle: 'Martini Glass Icons' },
+        { name: 'Available', author: 'Setyo Ari Wibowo', url: 'https://thenounproject.com/browse/icons/term/available/', urlTitle: 'available Icons' },
+        { name: 'Favorite', author: 'Landan Lloyd', url: 'https://thenounproject.com/browse/icons/term/favorite/', urlTitle: 'Favorite Icons' },
+        { name: 'Bartender', author: 'Kael', url: 'https://thenounproject.com/browse/icons/term/bartender/', urlTitle: 'bartender Icons' },
+        { name: 'Shaker', author: 'Amethyst Studio', url: 'https://thenounproject.com/browse/icons/term/shaker/', urlTitle: 'shaker Icons' },
+        { name: 'Jiggers', author: 'Kiran Shastry', url: 'https://thenounproject.com/browse/icons/term/jiggers/', urlTitle: 'jiggers Icons' },
+        { name: 'Beer', author: 'Start Up Graphic Design', url: 'https://thenounproject.com/browse/icons/term/beer/', urlTitle: 'Beer Icons' },
+        { name: 'Bar', author: 'Rikas Dzihab', url: 'https://thenounproject.com/browse/icons/term/bar/', urlTitle: 'Bar Icons' },
+        { name: 'Home', author: 'Gregor Cresnar', url: 'https://thenounproject.com/browse/icons/term/home/', urlTitle: 'Home Icons' },
+      ],
+      license: 'Licencia:',
+      licenseLink: 'Creative Commons Attribution 3.0',
+    },
   },
 };
 

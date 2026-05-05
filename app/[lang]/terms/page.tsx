@@ -62,6 +62,9 @@ export default function TermsPage({ params }: PageProps) {
 
       {/* Footer */}
       <footer className="footer footer--light">
+        <Link href={`/${lang}/credits`} className="footer__credits-link footer__credits-link--light">
+          {t.common.creditsLink}
+        </Link>
         <p className="footer__text">{t.common.copyright}</p>
       </footer>
     </div>
