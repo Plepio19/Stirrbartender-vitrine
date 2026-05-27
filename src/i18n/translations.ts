@@ -24,7 +24,7 @@ export const translations = {
       appStoreAlt: 'Download on the App Store',
       phonesAlt: 'Stirr app shown on three iPhones',
       tagline: 'Your cocktail bar, reinvented.',
-      description: 'Stirr turns your home bar into a creative studio — manage your stock, get personalized recommendations, and let AI craft and import recipes for you.',
+      description: 'Stirr turns your home bar into a creative studio. Manage your stock, get personalized recommendations, and let AI craft and import recipes for you.',
       features: [
         { title: 'Smart stock management', desc: 'Keep track of every bottle and ingredient, and instantly see what you can make.' },
         { title: 'Personalized recommendations', desc: 'Tailored suggestions to build the perfect bar, one bottle at a time.' },
@@ -71,7 +71,7 @@ export const translations = {
     common: {
       backHome: '← Back to Home',
       effectiveDate: 'Effective date: January 1, 2025',
-      copyright: '© 2025 Stirr. All rights reserved.',
+      copyright: '© 2026 Stirr. All rights reserved.',
       creditsLink: 'Icon Credits',
     },
     privacy: {
@@ -225,7 +225,7 @@ export const translations = {
       appStoreAlt: 'Télécharger dans l\'App Store',
       phonesAlt: 'L\'application Stirr sur trois iPhones',
       tagline: 'Ton bar à cocktails, réinventé.',
-      description: 'Stirr transforme ton bar maison en véritable studio créatif — gère tes stocks, reçois des recommandations personnalisées et laisse l\'IA créer et importer tes recettes.',
+      description: 'Stirr transforme ton bar maison en véritable studio créatif. Gère tes stocks, reçois des recommandations personnalisées et laisse l\'IA créer et importer tes recettes.',
       features: [
         { title: 'Gestion des stocks', desc: 'Suis chaque bouteille et ingrédient, et vois instantanément ce que tu peux préparer.' },
         { title: 'Recommandations personnalisées', desc: 'Des suggestions sur mesure pour créer le bar parfait, bouteille après bouteille.' },
@@ -272,7 +272,7 @@ export const translations = {
     common: {
       backHome: '← Retour à l\'accueil',
       effectiveDate: 'Date d\'effet : 1er janvier 2025',
-      copyright: '© 2025 Stirr. Tous droits réservés.',
+      copyright: '© 2026 Stirr. Tous droits réservés.',
       creditsLink: 'Crédits icônes',
     },
     privacy: {
@@ -426,7 +426,7 @@ export const translations = {
       appStoreAlt: 'Descargar en el App Store',
       phonesAlt: 'La aplicación Stirr en tres iPhones',
       tagline: 'Tu bar de cócteles, reinventado.',
-      description: 'Stirr convierte tu bar en casa en un estudio creativo — gestiona tu stock, recibe recomendaciones personalizadas y deja que la IA cree e importe tus recetas.',
+      description: 'Stirr convierte tu bar en casa en un estudio creativo. Gestiona tu stock, recibe recomendaciones personalizadas y deja que la IA cree e importe tus recetas.',
       features: [
         { title: 'Gestión de stock', desc: 'Controla cada botella e ingrediente y ve al instante qué puedes preparar.' },
         { title: 'Recomendaciones personalizadas', desc: 'Sugerencias a medida para crear el bar perfecto, botella a botella.' },
@@ -473,7 +473,7 @@ export const translations = {
     common: {
       backHome: '← Volver al inicio',
       effectiveDate: 'Fecha de vigencia: 1 de enero de 2025',
-      copyright: '© 2025 Stirr. Todos los derechos reservados.',
+      copyright: '© 2026 Stirr. Todos los derechos reservados.',
       creditsLink: 'Créditos de iconos',
     },
     privacy: {
