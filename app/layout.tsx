@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: "Stirr brings the art of cocktail making to your fingertips.",
   keywords: ["cocktail", "recipes", "mixology", "bartender", "drinks", "bar"],
   authors: [{ name: "Stirr" }],
+  icons: {
+    icon: "/StirrLogoFinal3.png",
+    apple: "/StirrLogoFinal3.png",
+  },
   openGraph: {
     title: "Stirr — The Art of Mixology",
     description: "Stirr brings the art of cocktail making to your fingertips.",
